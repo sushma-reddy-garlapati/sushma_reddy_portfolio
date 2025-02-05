@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+
+    <section id="about">
+  
+      <div class="about-text">
+        <h1>Hello, I'm <span>Sushma Reddy Garlapati</span></h1>
+        <p>
+          Software Developer | Machine Learning | Robotics | Full Stack Developer
+        </p>
+        <div class="about-buttons">
+          <button class="btn-primary" onclick="location.href='./#contact'">Contact</button>
+          <button class="btn-secondary" onclick="window.open('./assets/sushma_resume.pdf')"> Resume</button>
+          <button class="btn-third" src="./assets/linkedin.png" alt="My LinkedIn profile" onclick="location.href='https://www.linkedin.com/in/sushma-reddy-garlapati/'">LinkedIn</button>
+          <button class="btn-fourth" src="./assets/github.png"  alt="My Github profile" onclick="location.href='https://github.com/Sushma-223'">Github</button>
+          </div>
+      </div>
+    </div>
+      <div class="about-image">
+        <img src="assets/profile-pic.png" alt="Sushma Reddy">
+      </div>
+    </section>
+
+
+    <section id="about-details">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Research Assistant <br />LLM | Machine Learning | AI</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p> Bachelors of Technology in Computer Science<br />Master's in  Engineering Science Robotics</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a Robotics and AI Master's student at the University at Buffalo, specializing in Artificial Intelligence, Machine Learning, and Software Development. With a strong foundation in full-stack development, cloud-native applications, and scalable AI solutions, I enjoy building intelligent systems that drive real-world impact.
+
+              I specialize in designing and developing high-performance AI models, distributed cloud architectures, and scalable software solutions. My work involves optimizing AI pipelines, implementing fault-tolerant distributed systems, and building intuitive web applications that enhance user experiences.
+
+              I’m always open to exploring AI/ML, Software Engineering, and Cloud Computing opportunities. Let’s connect and innovate together!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          
+          <!-- Programming Languages -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article><h3>Java</h3></article>
+              <article><h3>Python</h3></article>
+              <article><h3>C++</h3></article>
+              <article><h3>HTML</h3></article>
+              <article><h3>CSS</h3></article>
+              <article><h3>JavaScript</h3></article>
+              <article><h3>TypeScript</h3></article>
+            </div>
+          </div>
+    
+          <!-- Databases -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Databases</h2>
+            <div class="article-container">
+              <article><h3>MySQL</h3></article>
+              <article><h3>PostgreSQL</h3></article>
+              <article><h3>DynamoDB</h3></article>
+              <article><h3>MongoDB</h3></article>
+              <article><h3>Elasticsearch</h3></article>
+            </div>
+          </div>
+    
+          <!-- Cloud & DevOps -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Cloud & DevOps</h2>
+            <div class="article-container">
+              <article><h3>AWS (EC2, Lambda, S3, RDS, DynamoDB, API Gateway)</h3></article>
+              <article><h3>Azure Functions</h3></article>
+              <article><h3>GCP (Cloud Storage, GKE)</h3></article>
+              <article><h3>Terraform</h3></article>
+              <article><h3>CloudFormation</h3></article>
+              <article><h3>CI/CD (CodePipeline, Jenkins, GitHub Actions)</h3></article>
+            </div>
+          </div>
+    
+          <!-- Machine Learning & AI -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Machine Learning & AI</h2>
+            <div class="article-container">
+              <article><h3>TensorFlow</h3></article>
+              <article><h3>PyTorch</h3></article>
+              <article><h3>OpenCV</h3></article>
+              <article><h3>AWS SageMaker</h3></article>
+            </div>
+          </div>
+    
+          <!-- Tools & Debugging -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools & Debugging</h2>
+            <div class="article-container">
+              <article><h3>Git</h3></article>
+              <article><h3>JIRA</h3></article>
+              <article><h3>REST APIs</h3></article>
+              <article><h3>GraphQL</h3></article>
+              <article><h3>JUnit</h3></article>
+              <article><h3>PyTest</h3></article>
+              <article><h3>Amazon X-Ray</h3></article>
+            </div>
+          </div>
+    
+          <!-- Frameworks & APIs -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frameworks & APIs</h2>
+            <div class="article-container">
+              <article><h3>Spring Boot</h3></article>
+              <article><h3>React.js</h3></article>
+              <article><h3>Node.js</h3></article>
+              <article><h3>Express.js</h3></article>
+              <article><h3>Material UI</h3></article>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+    </section>
+
+
+
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My</p>
+      <h1 class="title">Projects</h1>
+      <div class="projects-container">
+    
+        <!-- Project 1: Cloud-Native Content Management System -->
+        <div class="project-card">
+          <img src="./assets/cloud-cms.png" alt="Cloud CMS Project" class="project-image" />
+          <h2>Cloud-Native Content Management System</h2>
+          <p>Developed a serverless CMS using AWS S3, Lambda, and CloudFront, reducing content delivery time by 40% and scaling to 10M+ monthly users.</p>
+          <p><strong>Technologies:</strong> AWS S3, Lambda, CloudFront, Step Functions, Elasticsearch</p>
+        </div>
+    
+        <!-- Project 2: TacoDB - High-Performance Relational Database -->
+        <div class="project-card">
+          <img src="./assets/tacodb.png" alt="TacoDB Project" class="project-image" />
+          <h2>TacoDB - High-Performance Relational Database</h2>
+          <p>Designed a scalable relational database with B-Tree indexing, optimizing query execution speed by 60% while processing 500,000+ concurrent queries.</p>
+          <p><strong>Technologies:</strong> C++, SQL, B-Tree Indexing, ACID Transactions</p>
+        </div>
+    
+        <!-- Project 3: AI-Powered Weather Prediction System -->
+        <div class="project-card">
+          <img src="./assets/weather-ai.png" alt="Weather Prediction AI Project" class="project-image" />
+          <h2>AI-Powered Weather Prediction System</h2>
+          <p>Trained a machine learning model on AWS SageMaker, achieving 98% accuracy in extreme weather forecasting with real-time API deployment.</p>
+          <p><strong>Technologies:</strong> Python, TensorFlow, AWS SageMaker, AWS Glue</p>
+        </div>
+    
+        <!-- Project 4: Scalable Distributed Systems with AWS -->
+        <div class="project-card">
+          <img src="./assets/distributed-system.png" alt="Distributed Systems Project" class="project-image" />
+          <h2>Scalable Distributed Systems with AWS</h2>
+          <p>Developed a fault-tolerant distributed system with event-driven architecture, processing 500K+ concurrent requests while ensuring 97.89% uptime.</p>
+          <p><strong>Technologies:</strong> AWS Lambda, Kafka, CloudWatch, Prometheus</p>
+        </div>
+    
+      </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:garlapatisushmareddy@gmail.com">garlapatisushmareddy@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sushma-reddy-garlapati/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
